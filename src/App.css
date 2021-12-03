@@ -1,0 +1,25 @@
+:root{
+	--mainBlue:#2a2a72;
+	--lightBlue:#009ffd;
+	--mainWhite:#f3f3f3;
+	--mainDark:#232525;
+	--mainYellow:#ffa400;
+}
+body{
+	/*tipo de letra que esta en https://fonts.google.com*/
+	font-family: 'Oswald', sans-serif !important;
+	background: var(mainWhite) !important;
+	color: var(--mainDark)!important;
+}
+.text-title{
+	/*tipo de letra que esta en https://fonts.google.com*/ 
+	font-family: 'Permanet Marker', cursive; 
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+}
+.text-blue{
+	color: var(--mainBlue);
+}
+.text-bright{
+	color: var(--lightBlue);
+}
